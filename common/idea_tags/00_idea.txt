@@ -16,15 +16,13 @@ idea_categories = {
 	
 	government = {
 		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		slot = stability
-		slot = popularity
-		slot = temp_1
-#		slot = economic_health
-
-		#cost = 150
-		removal_cost = -1
+		slot = trade_policy
+		slot = economic_policy
+		slot = war_policy
+		#slot = voting_system
+		
+		cost = 150
+		removal_cost = 0
 	}
 	
 	minister = {
@@ -32,32 +30,36 @@ idea_categories = {
 		slot = foreign_minister
 		slot = economy_minister
 		slot = security_minister
-		slot = head_of_intel
-		slot = temp_2
 		
-		cost = 150
-		removal_cost = -1 # works
-	}
-	
-	research_production = {
-		slot = weapons_manufacturer
-		slot = tank_manufacturer
-		slot = tank_manufacturer
-		slot = air_naval_manufacturer
-		slot = air_naval_manufacturer
-		slot = industrial_concern
-
 		cost = 150
 		removal_cost = 0
 	}
 	
+	pop_size = {
+		slot = proletariat_size
+		slot = lower_middle_class_size
+		slot = middle_class_size
+		slot = capitalist_size
+		slot = aristocracy_size
+
+		cost = 150
+		removal_cost = -1
+	}
+	
+	pop_happiness = {
+		slot = proletariat_happiness
+		slot = lower_middle_class_happiness
+		slot = middle_class_happiness
+		slot = capitalist_happiness
+		slot = aristocracy_happiness
+
+		*cost = 150
+		removal_cost = -1
+	}
+	
 	military_staff = {	
-		slot = chief_of_staff
 		slot = chief_of_army
 		slot = chief_of_navy
-		slot = chief_of_air_force
-		slot = theorist
-		slot = temp_3
 		
 		cost = 150
 		removal_cost = 0
